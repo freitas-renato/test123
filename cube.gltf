@@ -1,0 +1,168 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        -3.50000000000000000000e+01,
+        6.00000000000000000000e+01,
+        2.00000000000000000000e+01
+      ],
+      "min": [
+        -5.50000000000000000000e+01,
+        4.00000000000000000000e+01,
+        0.00000000000000000000e+00
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        -3.50000000000000000000e+01,
+        6.00000000000000000000e+01,
+        2.00000000000000000000e+01
+      ],
+      "min": [
+        -5.50000000000000000000e+01,
+        4.00000000000000000000e+01,
+        0.00000000000000000000e+00
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3"
+    }
+  ],
+  "asset": {
+    "generator": "Wings 3D 2.2.6.1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 144,
+      "byteStride": 24
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 336
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 480,
+      "byteStride": 24
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 672,
+      "uri": "cube.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.00000000000000000000e+00,
+        0.00000000000000000000e+00,
+        0.00000000000000000000e+00
+      ],
+      "name": "default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          7.89853807692307730000e-01,
+          8.13333333333333350000e-01,
+          6.94044444444444460000e-01,
+          1.00000000000000000000e+00
+        ],
+        "metallicFactor": 1.00000000000000010000e-01,
+        "roughnessFactor": 8.00000000000000040000e-01
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "STL object",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "STL object",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "STL object"
+    },
+    {
+      "mesh": 1,
+      "name": "STL object"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ]
+}
